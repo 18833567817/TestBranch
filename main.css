@@ -26,12 +26,16 @@ li {
   float: right;
 }
 #header #lnav li:last-child {
-  margin-left: 20px;
+  margin-left: 6px;
 }
 #header #topImg {
   display: flex;
   justify-content: center;
-  padding-top: 120px;
+  padding-top: 183px;
+}
+#header #topImg img {
+  width: 450px;
+  height: 360px;
 }
 #gnav {
   position: sticky;
@@ -46,13 +50,14 @@ li {
   font-size: 16px;
   padding: 10px 0;
   margin-left: 1.0204%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #dddddd;
 }
 #gnav li:first-child {
   margin-left: 0px;
 }
 #gnav li:hover {
   border-bottom: 2px solid black;
+  padding-bottom: 9px;
 }
 #topWorks {
   padding: 50px 0;
@@ -81,14 +86,48 @@ li {
   width: 100%;
 }
 #topWorks article h1 {
+  font-size: 16px;
   margin: 10px 0;
 }
-#topWorks button {
-  width: 160px;
-  height: 40px;
+#topWorks article p {
+  font-size: 12px;
+}
+#topWorks a {
+  padding: 10px 15px;
   background-color: black;
   color: #ffffff;
   border: none;
+  text-decoration: none;
+}
+#topWorks a:hover {
+  opacity: 0.7;
+}
+#topBlog header {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+#topBlog div {
+  margin-bottom: 50px;
+}
+#topBlog article {
+  width: 22%;
+  float: left;
+  margin-left: 4%;
+}
+#topBlog article:first-child {
+  margin-left: 0;
+}
+#topBlog article img {
+  width: 100%;
+}
+#topBlog article h1 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#topBlog article p {
+  font-size: 14px;
+  color: #7b7b7b;
 }
 #backTop {
   position: fixed;
