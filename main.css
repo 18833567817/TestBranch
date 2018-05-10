@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.inner {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+  float: left;
+}
+#header {
+  height: 825px;
+}
+#header #lnav {
+  position: relative;
+  top: 40px;
+}
+#header #lnav ul {
+  display: inline-block;
+  float: right;
+}
+#header #lnav li:last-child {
+  margin-left: 6px;
+}
+#header #topImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 183px;
+}
+#header #topImg img {
+  width: 450px;
+  height: 360px;
+}
+#gnav {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+#gnav li {
+  width: 15.8163%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-left: 1.0204%;
+  border-bottom: 1px solid #dddddd;
+}
+#gnav li:first-child {
+  margin-left: 0px;
+}
+#gnav li:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 9px;
+}
+#topWorks {
+  padding: 50px 0;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+#topWorks header {
+  padding-bottom: 50px;
+}
+#topWorks h1 img {
+  display: block;
+  margin: 0 auto;
+}
+#topWorks article {
+  float: left;
+  width: 30.204%;
+  margin-right: 4.6938%;
+  padding-bottom: 50px;
+  display: inline;
+  text-align: left;
+}
+#topWorks article:nth-child(3n) {
+  margin-right: 0;
+}
+#topWorks article img {
+  width: 100%;
+}
+#topWorks article h1 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#topWorks article p {
+  font-size: 12px;
+}
+#topWorks a {
+  padding: 10px 15px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+}
+#topWorks a:hover {
+  opacity: 0.7;
+}
+#topBlog {
+  text-align: center;
+  padding-bottom: 80px;
+}
+#topBlog header {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+#topBlog div {
+  margin-bottom: 50px;
+}
+#topBlog article {
+  width: 22%;
+  float: left;
+  margin-left: 4%;
+  text-align: left;
+}
+#topBlog article:first-child {
+  margin-left: 0;
+}
+#topBlog article img {
+  width: 100%;
+}
+#topBlog article h1 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+#topBlog article p {
+  font-size: 14px;
+  color: #7b7b7b;
+}
+#topBlog a {
+  padding: 10px 15px;
+  background-color: black;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+}
+#topBlog a:hover {
+  opacity: 0.7;
+}
+aside {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 50px 0;
+}
+footer {
+  background-color: #000;
+  padding: 50px 0;
+  text-align: center;
+}
+footer li {
+  width: 15.8163%;
+  margin-left: 1.0204%;
+  color: #ffffff;
+}
+footer li:first-child {
+  margin-left: 0px;
+}
+footer li header {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+footer li li {
+  width: 100%;
+  float: none;
+  margin-bottom: 10px;
+  color: #808080;
+}
+footer #btn {
+  margin: 50px 0;
+}
+footer #btn button {
+  margin-left: 20px;
+}
+footer #btn button:first-child {
+  margin-left: 0;
+}
+footer p {
+  color: #ffffff;
+}
+#backTop {
+  position: fixed;
+  right: 0;
+  bottom: -150px;
+  transition: bottom 0.5s;
+}
+.cleanfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cleanfix {
+  zoom: 1;
+}
