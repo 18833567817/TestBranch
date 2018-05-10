@@ -19,7 +19,7 @@ function scroll() {
 backTop.onclick = function () {
     let time = setInterval(function () {
         if(document.documentElement.scrollTop>10){
-            document.documentElement.scrollTop -= 50;
+            document.documentElement.scrollTop -= 10;
         }else if(document.documentElement.scrollTop<10&&document.documentElement.scrollTop>0){
             document.documentElement.scrollTop = 0;
         }else if(document.documentElement.scrollTop === 0){
